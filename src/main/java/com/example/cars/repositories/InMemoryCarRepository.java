@@ -7,10 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class InMemoryStudentRepository implements CarRepository {
+public class InMemoryCarRepository implements CarRepository {
     private List<Car> cars;
 
-    InMemoryStudentRepository(){
+    InMemoryCarRepository() {
         cars = new ArrayList<>();
         addCars();
     }

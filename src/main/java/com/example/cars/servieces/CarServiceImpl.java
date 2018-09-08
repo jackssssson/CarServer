@@ -3,16 +3,16 @@ package com.example.cars.servieces;
 import com.example.cars.Car;
 import com.example.cars.repositories.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Repository
+@Service
 public class CarServiceImpl implements CarService {
     private CarRepository repository;
 
     @Autowired
-    CarServiceImpl(CarRepository repository){
+    CarServiceImpl(CarRepository repository) {
         this.repository = repository;
     }
 
