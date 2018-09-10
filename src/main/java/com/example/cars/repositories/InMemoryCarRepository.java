@@ -57,5 +57,7 @@ public class InMemoryCarRepository implements CarRepository {
         cars.add(new Car(4, "Ferrari", 2015, "Red"));
         cars.add(new Car(5, "Maserati", 2010, "Green"));
         cars.add(new Car(6, "Audi", 2018, "Blue"));
+        cars.add(new Car(7,"Bmw",2008,"Grey"));
+        cars.add(new Car(8,"Renault", 2007,"Yellow"));
     }
 }

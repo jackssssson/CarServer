@@ -18,7 +18,7 @@ public class CarController {
     }
 
     @PostMapping("/new")
-    public void createStudent(@RequestBody Car car) {
+    public void createCar(@RequestBody Car car) {
         service.createCar(car);
     }
 
@@ -38,7 +38,7 @@ public class CarController {
     }
 
     @DeleteMapping("/{id}")
-    public void deleteStudent(@PathVariable int id) {
+    public void deleteCar(@PathVariable int id) {
         service.deleteCar(id);
     }
 }
